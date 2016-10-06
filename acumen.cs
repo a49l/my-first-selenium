@@ -18,7 +18,7 @@ namespace UnitTestProject1
     public class UnitTest1
     {
         [TestMethod]
-        public void VerifyPostcode() /// to test pastcode exists
+        public void AccurateAddress() /// to test pastcode exists
 
             
         {
@@ -50,7 +50,7 @@ namespace UnitTestProject1
         }
 
         [TestMethod]
-        public void VerifyMandatoryFields()// Mandatory message is displayed
+        public void SubmissionValidation()// Mandatory message is displayed
         {
             IWebDriver driver = new FirefoxDriver();
 
