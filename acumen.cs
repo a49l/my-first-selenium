@@ -29,6 +29,7 @@ namespace UnitTestProject1
             driver.Navigate().GoToUrl("http://www.acumenci.com/");
             //click contact us page
             driver.FindElement((By.Id("menu-item-497"))).Click();
+            Thread.Sleep(2000);
 
 
            // driver.FindElements(By.XPath("//p[contains(., 'TW9 1HY')]"));
@@ -64,6 +65,7 @@ namespace UnitTestProject1
             driver.FindElement((By.Name("your-email"))).SendKeys("fake.email@fake.com");
             //click send button
             driver.FindElement(By.XPath("//input[@value='Send']")).Click();
+            Thread.Sleep(2000);
 
             try
             {
