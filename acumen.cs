@@ -18,7 +18,7 @@ namespace UnitTestProject1
     public class UnitTest1
     {
         [TestMethod]
-        public void AccurateAddress() /// to test pastcode exists
+        public void AccurateAddress() /// to test postcode exists
 
             
         {
@@ -27,7 +27,7 @@ namespace UnitTestProject1
 
             //Navigate to acumen
             driver.Navigate().GoToUrl("http://www.acumenci.com/");
-            //fclick contact us page
+            //click contact us page
             driver.FindElement((By.Id("menu-item-497"))).Click();
 
 
